@@ -8,9 +8,9 @@ into v_sal
 from emp
 where empno = p_empid;
 dbms_output.put_line(v_sal);
-/*update emp
+update emp
 set stars = lpad('*',v_sal/1000,'*')
 where empno = p_empid;
-commit;*/
+commit;
 end stars_sal;
 /
